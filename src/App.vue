@@ -40,7 +40,7 @@
 <script setup lang="ts">
 import type { todoStructure } from '@/type'
 import { ref, onMounted } from 'vue'
-import { useTodoStore } from '@/store/'
+import { useTodoStore } from '@/views'
 import { db } from '@/firebase/firebase'
 import { collection, getDocs } from 'firebase/firestore'
 
